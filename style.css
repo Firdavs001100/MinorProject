@@ -1,0 +1,130 @@
+
+.userP {
+    width: 800px;
+    margin-left: 40px;
+}
+.userDescription {
+    display: block;
+}
+.userDescription > img {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: none;
+    margin-top: 20px;
+}
+.userDescription > p {
+    font-size: 25px;
+    margin-top: 11px;
+    margin-bottom: 15px;
+}
+.userDescription > p > span {
+    color: rgb(94 83 83);
+    font-family: cursive;
+}
+.postInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 150px;
+}
+.infoItem > img {
+    width: 250px;
+    height: 300px;
+    margin-top: 20px;
+}
+.descTitle {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(89, 91, 90);
+    border-bottom: 1px solid grey;
+    width: 102px;
+    
+}
+.descInfo {
+    margin-top: 10px;
+    line-height: 1.3;
+}
+
+.likeButton {
+    margin-left: 47px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-image: url(./images/likeButton.png);
+    background-size: cover;
+    margin-bottom: 0px;
+    margin-top: 24px;
+}
+
+.likeCont > p {
+    margin-top: 0px;
+    margin-left: 59px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.likeAndCommentCont {
+    display: flex;
+}
+.likeCont {
+    display: grid;
+    align-items: end;
+}
+.commentSection {
+    display: flex;
+    align-items: end;
+    margin-bottom: 10px;
+}
+textarea {
+    height: 66px;
+    width: 186px;
+    resize: none;
+    border-radius: 5px;
+}
+.commentButton {
+    width: 40px;
+    height: 20px;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 0%;
+    border: 1px solid #455b8c;
+    background-color: rgb(32 117 56);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+.commentBox {
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 290px;
+    border: 1px solid #7d7d7d;
+    border-radius: 5px;
+    background-color: rgb(242, 242, 242);
+    /* Link where I learned this method: https://developer.mozilla.org/en-US/docs/Web/CSS/overflow */
+    max-height: 200px; 
+    overflow-y: auto; 
+
+}
+.commentBox > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #282828;
+}
+.commentBox > p > hr {
+    margin: 0px;
+}
+.commentTitle {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(89, 91, 90);
+    border-bottom: 1px solid grey;
+    width: 81px;
+    margin: 0px;
+}

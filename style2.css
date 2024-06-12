@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+h2 {
+    color: coral;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: #FC0 1px 0 10px;
+}
+fieldset {
+    border: 0;
+}
+fieldset > div {
+    margin-bottom: 30px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+label span {
+    color: red;
+}
+fieldset input {
+    padding: 10px;
+    width: 200px;
+}
+fieldset input:valid {
+    border: 2px solid green;
+}
+fieldset input:invalid {
+    border: 2px solid red;
+}
+.submit {
+    background: green;
+    border: 0;
+    color: white;
+    width: 224px;
+    padding: 10px;
+    text-transform: uppercase;
+}
